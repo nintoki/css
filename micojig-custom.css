@@ -2516,7 +2516,7 @@ div[id*=product-component] .shopify-buy__select-icon {
 .svg-paper-airplane svg {
   position: relative;
   transform: rotate(-30deg) scale(1);
-  transition: all .1s cubic-bezier(.165,.84,.44,1) 0s;
+  transition: all 1s cubic-bezier(.165,.84,.44,1) 0s;
   transform-origin: 12rem 5rem;
   top: -5rem
 }
