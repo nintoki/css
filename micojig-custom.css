@@ -1203,6 +1203,14 @@ div[id*="product-component"] .shopify-buy__product__price {
   position: absolute;
   bottom: .75rem;
 }
+.mj-container .shopify-buy__btn[disabled]::before {
+  content: 'Browse Retailers';
+  font-family: 'Avenir LT Std', Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: .75rem;
+}
 .shopify-buy__btn[disabled],.shopify-buy__btn-cta[disabled] {
   pointer-events: none;
   background-color: #999;
@@ -2500,4 +2508,18 @@ div[id*=product-component] .shopify-buy__select-icon {
   .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__title, .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__variant-title, .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__price, .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product-description, .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__btn-and-quantity, .shopify-buy__layout-horizontal:not(.no-image)>.shopify-buy__btn-wrapper, .shopify-buy__layout-horizontal:not(.no-image)>.shopify-buy__quantity-container, .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__variant-selectors {
     margin-left: calc(60% + 25px)
   }
+}
+
+.svg-paper-airplane a { 
+  display:block
+}
+.svg-paper-airplane svg {
+  position: relative;
+  transform: rotate(-30deg) scale(1);
+  transition: all .1s cubic-bezier(.165,.84,.44,1) 0s;
+  transform-origin: 12rem 5rem;
+  top: -5rem
+}
+.svg-paper-airplane:hover svg {
+  transform: rotate(60deg) scale(0);
 }
