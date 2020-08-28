@@ -962,6 +962,9 @@ div.product-sub-nav .shopify-buy__product .shopify-buy__btn-wrapper {
 .highlight:hover:after {
   opacity: 1
 }
+.highlight .shopify-buy__btn {
+    border: 2px solid #fff
+}
 
 .video-wrapper::before, .w-video::before {
   content: '';
