@@ -1393,6 +1393,9 @@ div[id*="product-component"] .shopify-buy__product__price {
     min-width: inherit;
     width: 45vw
   }
+  .split-section-image {
+    background-size:contain
+  }
 }
 @media screen and (min-width: 992px) {
   .product-sub-nav__title-wrap {
