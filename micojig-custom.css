@@ -1393,7 +1393,7 @@ div[id*="product-component"] .shopify-buy__product__price {
     min-width: inherit;
     width: 45vw
   }
-  .split-section-image {
+  .benefit .split-section-image {
     background-size:contain
   }
 }
