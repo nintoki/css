@@ -969,7 +969,10 @@ div.product-sub-nav .shopify-buy__product .shopify-buy__btn-wrapper {
 .highlight .shopify-buy__btn[disabled] {
   border:none
 }
-
+.hero__blade-inlay.push-box-inlay.blade {
+  display: block;
+  z-index: 2
+}
 .video-wrapper::before, .w-video::before {
   content: '';
   position: absolute;
