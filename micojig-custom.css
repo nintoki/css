@@ -962,11 +962,11 @@ div.product-sub-nav .shopify-buy__product .shopify-buy__btn-wrapper {
 .highlight:hover:after {
   opacity: 1
 }
-div[class*="highlight"] .shopify-buy__btn{
+.highlight .shopify-buy__btn{
     border: 2px solid #fff;
     background-color: transparent
 }
-div[class*="highlight"] .shopify-buy__btn[disabled] {
+.highlight .shopify-buy__btn[disabled] {
   border:none
 }
 
