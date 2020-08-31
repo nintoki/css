@@ -1218,7 +1218,7 @@ div[id*="product-component"] .shopify-buy__product__price {
   position: absolute;
   bottom: .75rem;
 }
-.shopify-buy__btn[disabled],.shopify-buy__btn-cta[disabled] {
+.shopify-buy__btn[disabled],.shopify-buy__btn-cta[disabled], .mj-container .shopify-buy__btn[disabled] {
   pointer-events: none;
   background-color: #999;
 }
@@ -1576,7 +1576,7 @@ div[id*="product-component"] .shopify-buy__product__price {
   transition: background .2s ease
 }
 
-.shopify-buy__btn:focus, .shopify-buy__btn:hover, .shopify-buy__btn-cta:focus, .shopify-buy__btn-cta:hover {
+.shopify-buy__btn:focus, .shopify-buy__btn:hover, .shopify-buy__btn-cta:focus, .shopify-buy__btn-cta:hover, .mj-container .shopify-buy__btn:hover {
   background-color: #18e;
   color:#fff
 }
