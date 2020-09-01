@@ -966,6 +966,10 @@ div.product-sub-nav .shopify-buy__product .shopify-buy__btn-wrapper {
     border: 2px solid #fff;
     background-color: transparent
 }
+.highlight:hover .shopify-buy__btn {
+    background: #18e;
+    border-color: #18e;
+}
 .highlight .shopify-buy__btn[disabled] {
   border:none
 }
@@ -1579,7 +1583,7 @@ div[id*="product-component"] .shopify-buy__product__price {
   -moz-appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  transition: background .2s ease
+  transition: background .2s ease, border-color .2s ease
 }
 
 .shopify-buy__btn:focus, .shopify-buy__btn:hover, .shopify-buy__btn-cta:focus, .shopify-buy__btn-cta:hover, .mj-container .shopify-buy__btn:hover {
