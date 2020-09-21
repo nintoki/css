@@ -1233,6 +1233,7 @@ div[id*="product-component"] .shopify-buy__product__price {
   background-color:#999
 }
 .disbtn-cta:hover .shopify-buy__btn[disabled],
+.promo__btn:hover .shopify-buy__btn[disabled],
 .part-modal .shopify-buy__product .shopify-buy__btn[instock="false"]:hover  {
   background: #555;
 }
