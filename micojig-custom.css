@@ -1643,7 +1643,9 @@ div[id*="product-component"] .shopify-buy__product__price {
   flex-direction: column-reverse;
 }
 .mj-container #promo__oos .shopify-buy__btn[disabled]::before {
-  position: static
+  position: static;
+  content: 'Browse at participating retailers';
+  margin-top: 2px
 }
 .shopify-buy__btn[disabled][data-element="product.button"],
 .shopify-buy__btn-cta[disabled][data-element="product.button"],
