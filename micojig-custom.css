@@ -255,6 +255,10 @@ body {
   line-height: 1.5
 }
 
+body sup {
+  top: -.25em;
+}
+
 html {
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
