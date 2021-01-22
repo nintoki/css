@@ -554,6 +554,10 @@ a.sm-icon[href=''] {
   background: #fff
 }
 
+flex-container.awards-wrap img {
+    max-height: 7rem;
+}
+
 .split-section-image img {
   flex-shrink: 1;
   min-width: 100%;
