@@ -26,6 +26,10 @@
   opacity: 1
 }
 
+.nav-dropdown, .nav-link.w--current, .nav-link {
+  border-color:rgba(221,221,221,0.4)
+}
+
 .nav-items {
   transition: height .2s cubic-bezier(0.165, 0.84, 0.44, 1);
   -webkit-transition: height .2s cubic-bezier(0.165, 0.84, 0.44, 1)
