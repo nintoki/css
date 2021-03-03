@@ -26,7 +26,7 @@
   opacity: 1
 }
 
-.nav-dropdown, .nav-link.w--current, .nav-link {
+.nav-dropdown, .nav-link, .nav-link.nav-logo, .nav-link.w--current, .dropdown-link.w-dropdown-link {
   border-color:rgba(221,221,221,0.4)
 }
 
