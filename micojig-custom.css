@@ -561,6 +561,9 @@ a.sm-icon[href=''] {
 flex-container.awards-wrap img {
     max-height: 7rem;
 }
+.awards-wrap.w-richtext figure img {
+    height: 7rem;
+}
 
 .split-section-image img {
   flex-shrink: 1;
