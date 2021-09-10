@@ -218,23 +218,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---1---*/
 * {
   box-sizing: border-box
@@ -560,10 +543,10 @@ a.sm-icon[href=''] {
 }
 
 flex-container.awards-wrap img {
-    max-height: 7rem;
+    max-height: 6.5rem;
 }
 .awards-wrap.w-richtext figure img {
-    height: 7rem;
+    height: 6.5rem;
 }
 
 .split-section-image img {
