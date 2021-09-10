@@ -543,10 +543,20 @@ a.sm-icon[href=''] {
 }
 
 flex-container.awards-wrap img {
-    max-height: 6.5rem;
+  max-height: 6.5rem;
 }
 .awards-wrap.w-richtext figure img {
-    height: 6.5rem;
+  height: 100%;
+  width: auto;
+  max-height: 6.5rem  
+}
+.awards-wrap figure div {
+  max-height: 7rem;
+  height: 20vw;
+}
+.awards-wrap .w-richtext-align-floatleft {
+  margin: 0 15px 0 0;
+  padding: 0;
 }
 
 .split-section-image img {
