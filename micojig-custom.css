@@ -543,7 +543,7 @@ a.sm-icon[href=''] {
 }
 
 flex-container.awards-wrap img {
-  max-height: 6.5rem;
+  max-height: 6rem;
 }
 .awards-wrap.w-richtext figure img {
   height: 100%;
@@ -551,7 +551,7 @@ flex-container.awards-wrap img {
   max-height: 6.5rem  
 }
 .awards-wrap figure div {
-  max-height: 7rem;
+  max-height: 6rem;
   height: 20vw;
 }
 .awards-wrap .w-richtext-align-floatleft {
