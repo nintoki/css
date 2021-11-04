@@ -1101,6 +1101,9 @@ div[id*="product-component-single"] .shopify-buy__product .shopify-stars {
 .highlight .shopify-buy__product__actual-price.shopify-buy__price--lowered, .highlight .shopify-buy__product__compare-price {
   color: #fff
 }
+.highlight .shopify-buy__product__variant-selectors + .shopify-buy__btn-wrapper {
+  margin-top: 1.25rem;
+}
 
 div[id*="product-component"] .shopify-buy__product {
   border: 1px solid #ddd
@@ -2049,6 +2052,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
+  color: #111;
   background: #fff;
   overflow: hidden;
   vertical-align: bottom;
