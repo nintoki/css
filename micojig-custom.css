@@ -1098,7 +1098,9 @@ div[id*="product-component-single"] .shopify-buy__product .shopify-stars {
   font-size: 1.125rem;
   margin-left: 0.25rem;
 }
-
+.highlight .shopify-buy__product__actual-price.shopify-buy__price--lowered, .highlight .shopify-buy__product__compare-price {
+  color: #fff
+}
 
 div[id*="product-component"] .shopify-buy__product {
   border: 1px solid #ddd
