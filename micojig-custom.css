@@ -1847,6 +1847,7 @@ div[class*="shopify-buy__cart"] {
 }
 
 .shopify-buy__cart-item__variant-title {
+  margin-top: 1rem;
   font-weight: 700;
   float: right;
   overflow: hidden;
