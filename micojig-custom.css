@@ -558,6 +558,12 @@ flex-container.awards-wrap img {
   margin: 0 15px 0 0;
   padding: 0;
 }
+.award-highlight .w-richtext-align-center.w-richtext-figure-type-image {
+  display: block;
+}
+.award-highlight .w-richtext-align-center.w-richtext-figure-type-image > div {
+  width: 100%;
+}
 
 .split-section-image img {
   flex-shrink: 1;
