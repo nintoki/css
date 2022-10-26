@@ -2105,7 +2105,7 @@ div[id*=product-component] .shopify-buy__option-select-wrapper {
 }
 div[id*=product-component] .shopify-buy__option-select__select {
   font-size: 0.875rem;
-  margin: 0 0 0 95px;
+  margin: 0 0 0 100px;
   height: 3.5rem;
   padding: 10px 10px 7px 25px;
   max-width:calc(100% - 29px)
@@ -2113,7 +2113,7 @@ div[id*=product-component] .shopify-buy__option-select__select {
 
 div[id*=product-component] .shopify-buy__select-icon {
   fill: #c03;
-  left: calc(1.25rem + 80px);
+  left: calc(1.25rem + 85px);
   width: 14px;
   height: 14px;
 }
