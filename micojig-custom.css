@@ -1094,6 +1094,7 @@ div[id*="product-component-single"] .shopify-buy__product .shopify-stars {
 .shopify-buy__product__actual-price.shopify-buy__price--lowered {
   color: #18e;
   font-weight: 600;
+  letter-spacing: -0.5px
 }
 .shopify-buy__product__actual-price.shopify-buy__price--lowered::after {
   content: '*';
@@ -1103,6 +1104,9 @@ div[id*="product-component-single"] .shopify-buy__product .shopify-stars {
   text-decoration: line-through;
   font-size: 1.125rem;
   margin-left: 0.25rem;
+}
+.w-col-3 .shopify-buy__product__compare-price, .w-col-4 .shopify-buy__product__compare-price {
+  opacity: 0;
 }
 .highlight .shopify-buy__product__actual-price.shopify-buy__price--lowered, .highlight .shopify-buy__product__compare-price {
   color: #fff
@@ -2101,7 +2105,7 @@ div[id*=product-component] .shopify-buy__option-select-wrapper {
 }
 div[id*=product-component] .shopify-buy__option-select__select {
   font-size: 0.875rem;
-  margin: 0 0 0 85px;
+  margin: 0 0 0 95px;
   height: 3.5rem;
   padding: 10px 10px 7px 25px;
   max-width:calc(100% - 29px)
@@ -2109,7 +2113,7 @@ div[id*=product-component] .shopify-buy__option-select__select {
 
 div[id*=product-component] .shopify-buy__select-icon {
   fill: #c03;
-  left: calc(1.25rem + 70px);
+  left: calc(1.25rem + 80px);
   width: 14px;
   height: 14px;
 }
