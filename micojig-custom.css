@@ -1105,7 +1105,7 @@ div[id*="product-component-single"] .shopify-buy__product .shopify-stars {
   font-size: 1.125rem;
   margin-left: 0.25rem;
 }
-.w-col-3 .shopify-buy__product__compare-price, .w-col-4 .shopify-buy__product__compare-price {
+.w-col-3 .shopify-buy__product__compare-price, .w-col-4 .shopify-buy__product__compare-price, .product-col-4 .shopify-buy__product__compare-price {
   opacity: 0;
 }
 .highlight .shopify-buy__product__actual-price.shopify-buy__price--lowered, .highlight .shopify-buy__product__compare-price {
@@ -2113,7 +2113,7 @@ div[id*=product-component] .shopify-buy__option-select__select {
 
 div[id*=product-component] .shopify-buy__select-icon {
   fill: #c03;
-  left: calc(1.25rem + 85px);
+  left: calc(1.25rem + 90px);
   width: 14px;
   height: 14px;
 }
